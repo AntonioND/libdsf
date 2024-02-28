@@ -23,6 +23,9 @@ quad.
 The software rendering routines support all NDS texture formats except for
 Tex4x4 compressed textures.
 
+Important: Your source code files (or text data files) need to be encoded as
+UTF-8.
+
 ## 2. Install
 
 Simply run this to build and install the library in your BlocksDS environment:
