@@ -11,3 +11,5 @@ as extension, so that it is recognized by the build system.
 The `png` files have been moved to the `graphics` folder, and `grit`
 configuration files have been added so that they are converted to a NDS texture
 format.
+
+![Screenshot](screenshot.png "Screenshot")
