@@ -41,6 +41,8 @@ make
 
 This will generate a NDS file that you can test with flashcards or emulators.
 
+![Screenshot](example/screenshot.png "Screenshot")
+
 ## License
 
 This library is released under the Zlib license.
