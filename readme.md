@@ -16,6 +16,13 @@ DS-compatible format and loading them to RAM (and VRAM).
 
 Currently, only fonts with one single PNG file are supported.
 
+It supports drawing text as a bunch of quads, or generating a texture with the
+text rendered by software so that it can be loaded as a texture and drawn as one
+quad.
+
+The software rendering routines support all NDS texture formats except for
+Tex4x4 compressed textures.
+
 ## 2. Install
 
 Simply run this to build and install the library in your BlocksDS environment:
