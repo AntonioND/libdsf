@@ -26,6 +26,10 @@ Tex4x4 compressed textures.
 Important: Your source code files (or text data files) need to be encoded as
 UTF-8.
 
+Note: If the replacement character � (`U+FFFD`) codepoint is included in the
+font, it will be used to print missing characters in the font, or when the UTF-8
+string has encoding errors.
+
 ## 2. Install
 
 Simply run this to build and install the library in your BlocksDS environment:
