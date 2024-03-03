@@ -152,6 +152,13 @@ dsf_error DSF_StringRender3DAlpha(dsf_handle handle, const char *str,
 /// be loaded to texture VRAM to be used (with functions like glTexImage2D() or
 /// NE_MaterialTexLoad()).
 ///
+/// Also, note that this texture doesn't need to have a size that is a power of
+/// two. However, consider that the size of a row should at least be a multiple
+/// of a full byte (for example, for a 16 color texture, don't use a texture
+/// with width of 143 because the last byte won't be full). To be sure that you
+/// never find any issue, ensure that your textures have a width multiple of 4
+/// pixels, that will work with all texture formats.
+///
 /// @param handle       Handler of the font to use.
 /// @param str          String to print.
 /// @param texture_fmt  Texture format (GL_TEXTURE_TYPE_ENUM, NE_TextureFormat).
