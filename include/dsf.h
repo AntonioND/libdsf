@@ -5,6 +5,10 @@
 #ifndef DSF_H__
 #define DSF_H__
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 /// @file dsf.h
 ///
 /// @brief Global include of LibDSF.
@@ -176,5 +180,9 @@ dsf_error DSF_StringRenderToTexture(dsf_handle handle,
                     void **out_texture, size_t *out_width, size_t *out_height);
 
 /// @}
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // DSF_H__
