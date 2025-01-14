@@ -32,7 +32,14 @@ string has encoding errors.
 
 ## 2. Install
 
-Simply run this to build and install the library in your BlocksDS environment:
+You can install this library with `wf-pacman` directly:
+
+```bash
+wf-pacman -Sy blocksds-libdsf
+```
+
+If you want to build the library from source, simply run this to build and
+install the library in your BlocksDS environment:
 
 ```bash
 make install
