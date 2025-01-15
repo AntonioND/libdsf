@@ -24,7 +24,7 @@ extern "C" {
 /// Minor version of LibDSF (semver)
 #define LIBDSF_VERSION_MINOR 1
 /// Patch version of LibDSF (semver)
-#define LIBDSF_VERSION_PATCH 4
+#define LIBDSF_VERSION_PATCH 5
 
 /// Value that combines all version numbers, useful for version checks.
 #define LIBDSF_VERSION \
@@ -33,7 +33,7 @@ extern "C" {
                  (LIBDSF_VERSION_PATCH << 1))
 
 /// Version string
-#define LIBDSF_VERSION_STRING "0.1.4"
+#define LIBDSF_VERSION_STRING "0.1.5"
 
 /// Character that is used when there are UTF-8 decoding errors.
 ///
