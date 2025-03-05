@@ -7,8 +7,9 @@ BLOCKSDSEXT	?= /opt/blocksds/external
 
 # User config
 
-NAME		:= libdsf_example
-GAME_TITLE	:= LibDSF example
+NAME			:= libdsf_demo
+GAME_TITLE		:= LibDSF demo
+GAME_SUBTITLE	:= LibDSF example
 
 # Source code paths
 
